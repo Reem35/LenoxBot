@@ -11,7 +11,8 @@ const moment = require('moment');
 require('moment-duration-format');
 
 // const shardId = process.env.SHARD_COUNT;
-const token = process.env.CLIENT_TOKEN;
+const token = process.env.CLIENT_TOKEN; 
+lord Mg By Thing
 
 
 if (!settings.token || settings.token === '' || !settings.prefix || settings.prefix === '' || !settings.sqlitefilename || settings.sqlitefilename === '' || !settings.owners || settings.owners.length === 0 || !settings.keychannel || settings.keychannel === '' || !settings.websiteport || isNaN(settings.websiteport)) {
